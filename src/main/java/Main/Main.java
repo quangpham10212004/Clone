@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 
 package Main;
-/**
- *
- * @author Quang
- */
 
 import Entity.Admin;
 import Entity.Client;
@@ -26,8 +18,8 @@ public class Main {
         Database database = new Database();
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Welcome to Wheelfinder");
-        System.out.println("Enter your email:\nOr Enter -1 to Create New Account:\n\n  ");
+        System.out.println("WELCOME TO WHEELFINDER\n");
+        System.out.println("Enter your email:\nOr Enter (-1) to Create New Account:\n\n  ");
         String email = sc.next();
         if(email.equals("-1")){
             new AddNewAccount(0).operation(database, sc, null);// trong java co the goi truc tiep nhu nay va no se tra ve 1 doi tuong dc tao ra

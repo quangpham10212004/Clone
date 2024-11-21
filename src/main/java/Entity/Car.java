@@ -1,20 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Entity;
 
-/**
- *
- * @author Quang
- */
 public class Car {
 
     private int ID;
     private String brand;
     private String model;
     private String color;
-    private int year;// nsx
+    private int yearRelease;// nsx
     private double price;
     private int available;  //0 : het hang
                             //1 : con hang
@@ -54,11 +47,11 @@ public class Car {
     }
 
     public int getYear() {
-        return year;
+        return yearRelease;
     }
 
     public void setYear(int year) {
-        this.year = year;
+        this.yearRelease = year;
     }
 
     public double getPrice() {

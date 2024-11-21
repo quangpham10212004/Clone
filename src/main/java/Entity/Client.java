@@ -18,7 +18,7 @@ public class Client extends User {
     }
     public void showList(Database database, Scanner sc){
         System.out.println("\n1. Show Car");
-        System.out.println("2. Rent Car");
+        System.out.println("2. Buy Car");
         System.out.println("3. Return Car");
         System.out.println("4. Show My Buys");
         System.out.println("5. Edit My Data");
